@@ -1,0 +1,55 @@
+body{
+    width: auto;
+}
+
+
+
+@media (max-width: 800px){
+    .nav {
+        width: 100%;
+    }
+
+    .nav li {
+        float: left;
+        width: 25%;
+    }
+
+    .main {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    body {
+        width: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .nav {
+        width: 100%;
+    }
+
+    .nav li {
+        float: left;
+        width: 25%;
+    }
+
+    .main {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    body {
+        width: auto;
+    }
+
+    .main img {
+        float: none;
+        width: 80%;
+        margin: auto 10%;
+    }
+
+    .main p {
+        font-size: 22px;
+    }
+}
