@@ -117,18 +117,16 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
   @media only screen and (max-width: 900px) { 
     body {
      background-color:#B00;
    }
    body .nav  {
-  
      width:25%;
      margin-right: 5%;
    }
     body .main{
-  
-      width: 65%;
+     width: 65%;
   }
-  
   }
