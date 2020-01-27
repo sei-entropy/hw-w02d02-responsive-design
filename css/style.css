@@ -12,108 +12,105 @@
 */
 
 body {
-  background-color: #333;
-  font: 15px/1.4 Helvetica, Arial, sans-serif;
-  margin: 0;
-  width:900px;
-  margin:auto;
-  padding: 25px 25px 50px;
+    color: rgb(2, 100, 129);
+    background-color: steelblue;
+    font: 20px/1.2 Helvetica, Arial, sans-serif;
+    margin: 0;
+    max-width: 900;
+    width: 900px;
+    margin: auto;
+    padding: 25px 25px 50px;
 }
 
 a {
-  color: #C00;
+    color: rgb(29, 0, 109);
+    background-position: bottom;
+    margin-block-start: unset;
+    overflow: scroll;
 }
 
 .page {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  overflow: hidden;
+    background-color: grey;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: inherit;
+    overflow: hidden;
 }
 
 .header {
-  background: black url("../images/header.png") no-repeat center top;
-  background-size: cover;
-  border-bottom: 10px solid #000;
-  color: #fff;
-  padding: 20px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background: url("../images/header.png") no-repeat center top;
+    background-size: cover;
+    border-bottom: 10px solid #000;
+    color: #fff;
+    padding: 200px;
+    text-shadow: 1px 1px 5px powderblue;
 }
 
-  .header img {
-    width: 30%;
-  }
+.nav a {
+    border-bottom: 1px;
+    color: black;
+    display: run-in;
+    font-weight: normal;
+    padding: 10px 20px;
+}
+
+.nav a:hover {
+    background-color: pink;
+}
 
 .nav {
-  background-color: #B00;
-  list-style: none;
-  float: left;
-  margin: 0;
-  margin-right: 5%;
-  padding: 0;
-  width: 25%;
-}
-
-  .nav a {
-    border-bottom: 1px solid #900;
-    color: #fff;
-    display: block;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
-
-  .nav a:hover {
-    background-color: #D00;
-  }
-
-.main {
-  float: left;
-  margin: 0 0 30px;
-  width: 65%;
-}
-
-  .main img {
+    background-color: unset;
     float: left;
-    margin-right: 20px;
-    margin-bottom: 5px;
+    margin: 0;
+    margin-right: 5%;
+    padding: 0;
+    width: 25%;
+    justify-content: start;
+}
+
+main {
+    float: right;
+    margin: 0 0 30px;
+    width: 65%;
+    color: lightgrey
+}
+
+.main img {
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 10px;
     width: 30%;
-  }
+}
+
+.breadcrumbs li {
+    display: inline-table;
+    background-color: thistle;
+}
 
 .breadcrumbs {
-  list-style: none;
-  margin: 20px 0;
-  font-weight: bold;
-  padding: 0;
+    list-style: armenian;
+    margin: 20px 0;
+    font-weight: bold;
+    padding: 0;
 }
 
-  .breadcrumbs li {
+.footer li {
+    border-right: 1px soli;
     display: inline;
-  }
-
-  .breadcrumbs li:before {
-    content: '\00BB';
-    margin: 0 10px;
-  }
-
-  .breadcrumbs li:first-child:before {
-    content: none;
-  }
-
-.footer {
-  background-color: #B00;
-  clear: both;
-  margin: 0;
-  padding: 10px 20px;
+    margin-right: 50px;
+    padding-right: 50px;
+    margin: unset;
 }
 
-  .footer a {
-    color: white;
-  }
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+}
 
-  .footer li {
-    border-right: 1px solid #900;
-    display: inline;
-    margin-right: 15px;
-    padding-right: 15px;
-  }
+@media only screen and (max-width: 200px) {
+    body {
+        background-color: yellow;
+        color: yellow;
+    }
+}
