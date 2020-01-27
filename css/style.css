@@ -15,10 +15,14 @@ body {
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
-  width:900px;
+  /* max-width 100% to be responsive on desktop screen */
+  max-width: 100%;
+  height:auto;
   margin:auto;
   padding: 25px 25px 50px;
+  display: flex;
 }
+
 
 a {
   color: #C00;
@@ -47,7 +51,7 @@ a {
 
 .nav {
   background-color: #B00;
-  list-style: none;
+  list-style: none; 
   float: left;
   margin: 0;
   margin-right: 5%;
@@ -116,4 +120,23 @@ a {
     display: inline;
     margin-right: 15px;
     padding-right: 15px;
+  
   }
+  @media only screen and (max-width: 498px) {
+    .main {
+      width: 100%;
+    }
+    .nav a{
+      display: none;
+   
+    }
+    /* absolute to move nav bar on top when screen 498px */
+    .footer{
+      position: absolute;
+      width: 82%;
+      
+  }
+      
+    }
+  
+ 
