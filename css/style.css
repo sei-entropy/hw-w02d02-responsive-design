@@ -42,7 +42,7 @@ a {
 }
 
   .header img {
-    width: 30%;
+    max-width: 30%;
   }
 
 .nav {
@@ -70,14 +70,14 @@ a {
 .main {
   float: left;
   margin: 0 0 30px;
-  width: 65%;
+  max-width: 65%;
 }
 
   .main img {
     float: left;
     margin-right: 20px;
     margin-bottom: 5px;
-    width: 30%;
+    max-width: 30%;
   }
 
 .breadcrumbs {
@@ -116,4 +116,32 @@ a {
     display: inline;
     margin-right: 15px;
     padding-right: 15px;
+  }
+  
+  @media only screen and (max-width: 742px) {  
+   .nav {
+      width:99.90%;
+      float:left;
+      text-align:left;
+      justify-content:left;
+      display: flex;
+    }
+    .main {
+      text-align:left;
+      float:left;
+      text-align: justify;
+      align-items: center;
+    }
+    img{
+      align-items: center;
+    }
+   /* .heade{
+      width:80%; */
+    }
+    .footer{
+      width:95%;%;
+    }
+  .page{
+    width: 50%;
+  }
   }
