@@ -122,7 +122,14 @@ a {
     padding-right: 15px;
   
   }
-  @media only screen and (max-width: 498px) {
+@media only screen and (min-width:600px){
+  .footer{
+    display: none;
+  }
+}
+
+
+  @media only screen and (max-width: 600px) {
     .main {
       width: 100%;
     }
@@ -133,7 +140,10 @@ a {
     /* absolute to move nav bar on top when screen 498px */
     .footer{
       position: absolute;
-      width: 82%;
+      display: flex;
+      width:84%;
+      margin-right: 15px;
+      padding-right: 15px;
       
   }
       
