@@ -15,6 +15,7 @@ body {
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
+  max-width:900px;    /* add it to make website responsive */
   width:900px;
   margin:auto;
   padding: 25px 25px 50px;
@@ -48,30 +49,40 @@ a {
 .nav {
   background-color: #B00;
   list-style: none;
-  float: left;
+  /* float: left; */
   margin: 0;
   margin-right: 5%;
   padding: 0;
-  width: 25%;
+  width: 100%; /*  change from 25*/
+  display: flex; /*  added  */
+}
+.nav li {  /* added */
+  border-right: black 1px solid;
+  padding: 20px 0; 
 }
 
-  .nav a {
-    border-bottom: 1px solid #900;
-    color: #fff;
-    display: block;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
+.nav a {
+  /* border-bottom: 1px solid #900; */
+  color: #fff;
+  /* display: block; */
+ 
+  font-weight: bold;
+  padding: 40px 60px; /* was 10px 20px */
+  width: 25%; /*added  */
+  font-size: 2.5em; /*added  */
+}
+ 
 
   .nav a:hover {
     background-color: #D00;
   }
 
-.main {
-  float: left;
-  margin: 0 0 30px;
-  width: 65%;
-}
+  .main {
+    /* float: left; */
+    margin:0 auto; /* was  0 0 30px */
+    width: 90%; /* was 65% */
+    font-size: 2.7em; /* added */
+  }
 
   .main img {
     float: left;
@@ -115,5 +126,6 @@ a {
     border-right: 1px solid #900;
     display: inline;
     margin-right: 15px;
-    padding-right: 15px;
+    padding-right: 30px; /* was 15px */
+    font-size: 2.5em; /* added */
   }
