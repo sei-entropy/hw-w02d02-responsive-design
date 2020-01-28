@@ -54,6 +54,7 @@ a {
     margin-right: 5%;
     padding: 0;
     width: 25%;
+
   }
   
     .nav a {
@@ -130,7 +131,7 @@ padding-right: 5px;
   }
 
 
-  @media (max-device-width: 400px){  
+  @media (max-device-width: 900px){  
 
     .nav {
       list-style-type: none;
@@ -139,22 +140,22 @@ padding-right: 5px;
       width: 100%;
       overflow: hidden;
       background-color: #B00;
-      flex-direction :column;
-      
-      
+    
+ 
     }
      .nav  {
       float :left;
     
+      
     }
   
-    .nav a {
+    .nav li {
       border-bottom: 1px solid #900;
       color: #fff;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      
+      display: inline-block;
     }
   
   
