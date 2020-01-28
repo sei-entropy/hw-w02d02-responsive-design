@@ -116,32 +116,34 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
- @media only screen and (max-width:900px) {
-  .main {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
- .nav {
-    width:25%;
-    margin-right:5%;
-   
-  }
-  .nav a{
-    display: inline;
-  }
-.nav ul {
-  display: inline;
-  display: flex;
-    flex-direction: row;
-}
-
+ @media only screen and (max-device-width:900px) {
 body{
-  width: 100px;
-  display:block;
+  background-color: #B00;
+  
+}
+.nav{
+  width: 95%;
+  margin-right: 5%;
+}
+.nav li{
+display: inline-flex;
+}
+.main{
+  width: 65%;
+
 }
 
- }
-  
+
+  }
+  /*
+  Red: #B00;
+  Dark Red: #900;
+
+  Max page width: 900px
+  Nav width: 25%, with 5% right margin
+  Main width: 65%
+
+  CSS you'll need:
+  - max-width
+  - @media
+*/
