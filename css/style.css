@@ -70,7 +70,7 @@ a {
 .main {
   float: left;
   margin: 0 0 30px;
-  width: 65%;
+  max-width: 65%;
 }
 
   .main img {
@@ -117,3 +117,21 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+  @media only screen and (max-width: 600px) {
+   .main {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: flex-start;
+      text-align: center;
+      font-size: 20px;
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+     .nav {
+      display: none;
+    }
+  }
+ 
