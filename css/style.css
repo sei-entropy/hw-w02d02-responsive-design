@@ -159,7 +159,7 @@ padding-right: 5px;
     }
   
   
-    .nav a:hover {
+    .nav li:hover {
      background-color: #D00;
 
    }
