@@ -117,3 +117,15 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+@media screen and (max-width: 600px) {
+  .nav {
+    overflow: auto;
+    width: 100%;
+    float: none;
+  }
+    .nav a {
+        float: left;
+    border: 1px solid #900;
+  }
+}
