@@ -15,7 +15,7 @@ body {
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
-  width:900px;
+  max-width:900px;
   margin:auto;
   padding: 25px 25px 50px;
 }
@@ -117,3 +117,11 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+    .main {
+
+      padding: 0 25px;
+      width: auto;
+      float: none;
+  }
+
+}
