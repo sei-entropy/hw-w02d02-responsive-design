@@ -117,3 +117,45 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+ 
+  .nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 100% ;
+  }
+  
+  @media all and (max-width: 1000px) {
+    .nav {
+      justify-content: space-around;
+      flex-direction: column;
+    }
+  }
+  
+  @media all and (max-width: 1000px) {
+    .nav {
+      flex-direction: column ;
+    }
+  }
+
+  /* footeer */
+
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 100% ;
+  }
+  
+  @media all and (max-width: 1000px) {
+    .footer {
+      justify-content: space-around;
+      flex-direction: column;
+    }
+  }
+  
+  @media all and (max-width: 1000px) {
+    .footer {
+      flex-direction: column ;
+    }
+  }
