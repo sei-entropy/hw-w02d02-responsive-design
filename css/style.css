@@ -103,11 +103,9 @@ a {
     padding-right: 15px;
   }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .nav {
-    float: right;
-    margin: 0;
-    overflow: auto;
+    margin-bottom: 5%;  
     width: 100%;
   }
   
@@ -119,8 +117,7 @@ a {
   .main {
     float: none;
     margin: 5%;
-    padding: 0 20px;
-    width: 65%;
+    width: auto;
   }
 
   .footer{
