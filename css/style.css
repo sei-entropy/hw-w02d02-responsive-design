@@ -11,12 +11,22 @@
   - @media
 */
 
+
+@media (max-width: 480px) {
+   ul.nav li {
+    width: 33.33%;
+    float: left;
+
+  }
+}
+
+
 body {
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
-  width:900px;
-  margin:auto;
+  width: 90%;
+  margin: auto;
   padding: 25px 25px 50px;
 }
 
@@ -41,31 +51,33 @@ a {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-  .header img {
-    width: 30%;
-  }
+.header img {
+  width: 30%;
+}
 
 .nav {
   background-color: #B00;
   list-style: none;
-  float: left;
   margin: 0;
   margin-right: 5%;
   padding: 0;
-  width: 25%;
+  width: 90%;
+  float: left;
+  
 }
 
-  .nav a {
-    border-bottom: 1px solid #900;
-    color: #fff;
-    display: block;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
 
-  .nav a:hover {
-    background-color: #D00;
-  }
+.nav a {
+  border-bottom: 1px solid #900;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.nav a:hover {
+  background-color: #D00;
+}
 
 .main {
   float: left;
@@ -73,12 +85,12 @@ a {
   width: 65%;
 }
 
-  .main img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 5px;
-    width: 30%;
-  }
+.main img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  width: 30%;
+}
 
 .breadcrumbs {
   list-style: none;
@@ -87,18 +99,18 @@ a {
   padding: 0;
 }
 
-  .breadcrumbs li {
-    display: inline;
-  }
+.breadcrumbs li {
+  display: inline;
+}
 
-  .breadcrumbs li:before {
-    content: '\00BB';
-    margin: 0 10px;
-  }
+.breadcrumbs li:before {
+  content: '\00BB';
+  margin: 0 10px;
+}
 
-  .breadcrumbs li:first-child:before {
-    content: none;
-  }
+.breadcrumbs li:first-child:before {
+  content: none;
+}
 
 .footer {
   background-color: #B00;
@@ -107,13 +119,13 @@ a {
   padding: 10px 20px;
 }
 
-  .footer a {
-    color: white;
-  }
+.footer a {
+  color: white;
+}
 
-  .footer li {
-    border-right: 1px solid #900;
-    display: inline;
-    margin-right: 15px;
-    padding-right: 15px;
-  }
+.footer li {
+  border-right: 1px solid #900;
+  display: inline;
+  margin-right: 15px;
+  padding-right: 15px;
+}
