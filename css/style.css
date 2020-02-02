@@ -117,3 +117,17 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+  // @media(min-width:720px){
+    main{
+      background-color: red;
+    }
+  }
+
+h1{
+ Background-color:peru;
+} 
+
+// @media(min-width:1000px){
+  header{
+    background-color: pink;
+  }
